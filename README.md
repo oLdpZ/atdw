@@ -48,4 +48,12 @@ My hope is that by making the solo experience more accessible, more players will
 
 ---
 
+## Get the Game
+
+**[Buy "Across a Thousand Dead Worlds" from Blackoath Entertainment](https://blackoathgames.com/store/p/u1s5hb4b9xwll12yzd5bnz5h17q385)**
+
+You need the manual to play — this app is a companion tool, not a standalone game.
+
+---
+
 *"Across a Thousand Dead Worlds" is a game by Blackoath Entertainment.*
