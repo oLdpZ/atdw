@@ -1,4 +1,4 @@
-const CACHE = 'atdw-v1.0.7';
+const CACHE = 'atdw-v1.1';
 
 self.addEventListener('install', e => {
   self.skipWaiting();
