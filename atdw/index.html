@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>ATDW Solo Tool</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#00ffb4">
+    <script type="module" crossorigin src="/atdw/assets/index-CjwPeuF6.js"></script>
+    <link rel="stylesheet" crossorigin href="/atdw/assets/index-C_YmY61V.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Registra il service worker con path relativo e scope /atdw/ -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js', { scope: '/atdw/' });
+      }
+    </script>
+  </body>
+</html>

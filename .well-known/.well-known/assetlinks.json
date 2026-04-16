@@ -1,0 +1,11 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "co.median.android.rdjdkqz",
+    "sha256_cert_fingerprints": [
+      "7E:B3:A2:11:90:D4:FE:28:6D:C2:72:58:A5:D5:41:29:87:F3:6C:5F:E7:D0:4D:12:47:31:DC:1E:77:86:43:1E",
+      "06:75:7D:22:3D:66:81:E8:FF:B4:65:4E:46:F0:8E:EB:C8:00:19:F0:85:47:2C:93:38:CD:89:A7:34:ED:D8:A3"
+    ]
+  }
+}]
