@@ -18,7 +18,7 @@
         height: 100dvh;
         background: #090b0f url("/splash.png") center center / cover no-repeat;
         z-index: 2147483647;
-        transition: opacity 400ms ease;
+        transition: opacity 600ms ease;
         opacity: 1;
         pointer-events: none;
       }
@@ -37,8 +37,8 @@
           var s = document.getElementById('app-splash');
           if(!s) return;
           s.classList.add('hide');
-          setTimeout(function(){ s.remove(); }, 450);
-        }, 1200);
+          setTimeout(function(){ s.remove(); }, 650);
+        }, 2500);
       });
     </script>
   </body>
