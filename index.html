@@ -6,12 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <title>Vite + React + TS</title>
     <link rel="manifest" href="/manifest.json">
-    <meta name="theme-color" content="#00ffb4">
+    <meta name="theme-color" content="#090b0f">
+    <link rel="preload" as="image" href="/splash.png">
+    <style>
+      html, body { margin: 0; padding: 0; background: #090b0f; }
+      #app-splash {
+        position: fixed;
+        inset: 0;
+        width: 100vw;
+        height: 100vh;
+        height: 100dvh;
+        background: #090b0f url("/splash.png") center center / cover no-repeat;
+        z-index: 2147483647;
+        transition: opacity 400ms ease;
+        opacity: 1;
+        pointer-events: none;
+      }
+      #app-splash.hide { opacity: 0; }
+    </style>
     <script type="module" crossorigin src="/assets/index-Cd_39MSN.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-C_YmY61V.css">
   </head>
   <body>
+    <div id="app-splash"></div>
     <div id="root"></div>
-    <script>if('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js');</script>
+    <script>
+      if('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js');
+      window.addEventListener('load', function(){
+        setTimeout(function(){
+          var s = document.getElementById('app-splash');
+          if(!s) return;
+          s.classList.add('hide');
+          setTimeout(function(){ s.remove(); }, 450);
+        }, 1200);
+      });
+    </script>
   </body>
 </html>
