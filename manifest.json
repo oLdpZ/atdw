@@ -1,7 +1,7 @@
 {
   "name": "ATDW Solo Tool",
   "short_name": "ATDW",
-  "description": "Across a Thousand Dead Worlds - Solo Play Tool",
+  "description": "Across a Thousand Dead Worlds - Official Solo Play Tool",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#090b0f",

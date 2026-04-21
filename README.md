@@ -1,6 +1,6 @@
 # ATDW Solo Tool
 
-### Across a Thousand Dead Worlds — Solo Play Tool
+### Across a Thousand Dead Worlds — Official Solo Play Tool
 
 A free digital companion for the tabletop RPG **"Across a Thousand Dead Worlds"** by Blackoath Entertainment.
 
